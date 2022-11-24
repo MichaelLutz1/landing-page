@@ -1,11 +1,12 @@
 *{
     font-family: Roboto, 'Open Sans', sans-serif;
+    box-sizing: border-box;
 }
 
 
 .container{
     display: flex;
-    align-items: center;
+    /* align-items: center; */
     padding-left: 15%;
     padding-right: 15%;
 }
@@ -72,18 +73,19 @@ img{
     font-size: 36px;
     font-weight:bolder;
     color: #1f2937;
+    text-align: center;
 }
 
 .captions{
     color: #57585a;
     justify-content: center;
-    gap: 40px;
+    gap: 50px;
     text-align: center;
 }
 .box{
     border: rgb(43, 103, 254);
-    height: 150px;
-    width: 150px;
+    height: 175px;
+    width: 175px;
     padding: 5px;
     border-style: solid;
     border-radius: 15px;
@@ -93,4 +95,21 @@ img{
 .container.boxes{
     flex-direction: column;
     padding: 0px;
+}
+
+.quote{
+    background-color: #e5e7eb;
+    flex-direction: column;
+    font-style: italic;
+    font-weight: lighter;
+    font-size: 36px;
+    padding: 8% 20%;
+
+}
+.signiture{
+    font-weight: bold;
+    font-size: 24px;
+    text-align: right;
+    margin: 0px;
+
 }
