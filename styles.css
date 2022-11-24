@@ -62,3 +62,35 @@ img{
     background-color: grey;
     padding: 100px;
 }
+
+.white.container{
+    flex-direction: column;
+    margin-bottom: 75px;
+}
+
+.info-header{
+    font-size: 36px;
+    font-weight:bolder;
+    color: #1f2937;
+}
+
+.captions{
+    color: #57585a;
+    justify-content: center;
+    gap: 40px;
+    text-align: center;
+}
+.box{
+    border: rgb(43, 103, 254);
+    height: 150px;
+    width: 150px;
+    padding: 5px;
+    border-style: solid;
+    border-radius: 15px;
+    border-width: 4px;
+}
+
+.container.boxes{
+    flex-direction: column;
+    padding: 0px;
+}
